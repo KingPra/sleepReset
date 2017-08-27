@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface");
 body {
   background: #000; }
 
@@ -21,7 +22,46 @@ body {
   width: 50%;
   height: 6px;
   background: grey;
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 0px;
-  transform-origin: 100%; }
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  border-top-right-radius: 50px;
+  -moz-border-radius-topright: 50px;
+  -webkit-border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  -moz-border-radius-bottomright: 50px;
+  -webkit-border-bottom-right-radius: 50px;
+  -webkit-clip-path: polygon(100% 0, 0 49%, 100% 100%);
+  clip-path: polygon(100% 0, 0 49%, 100% 100%); }
+
+.min {
+  width: 45%;
+  left: 5%;
+  background: #ccc; }
+
+.hour {
+  width: 30%;
+  left: 20%;
+  background: brown; }
+
+.numbers {
+  position: absolute;
+  bottom: 80%;
+  left: 41%;
+  font-family: 'Abril Fatface', cursive, sans-serif;
+  color: white;
+  font-size: 6em; }
+
+.three {
+  bottom: 40%;
+  left: 88%; }
+
+.six {
+  bottom: -2%;
+  left: 45%; }
+
+.nine {
+  bottom: 40%;
+  left: 1%; }
