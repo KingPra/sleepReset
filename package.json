@@ -1,0 +1,27 @@
+{
+  "name": "sleepreset",
+  "version": "1.0.0",
+  "description": "a clock to help reset those sleepless months.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingPra/sleepReset.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KingPra/sleepReset/issues"
+  },
+  "homepage": "https://github.com/KingPra/sleepReset#readme",
+  "devDependencies": {
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "@types/node": "^7.0.43",
+    "gulp-browser": "^3.0.6",
+    "gulp-strip-comments": "^2.5.1"
+  }
+}

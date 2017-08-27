@@ -1,0 +1,31 @@
+body {
+  background: #000;
+}
+
+.clock {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  border: 1px solid red;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+}
+
+.clock-face {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  border: 1px solid blue;
+  border-radius: 50%;
+}
+
+.hand {
+  width: 50%;
+  height: 6px;
+  background: grey;
+  position: relative;
+  top: 50%;
+  left: 0px;
+  transform-origin: 100%;
+}
