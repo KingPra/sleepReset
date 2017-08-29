@@ -64,4 +64,17 @@ body {
 
 .nine {
   bottom: 40%;
-  left: 1%; }
+  left: 3%; }
+
+.frame {
+  position: absolute;
+  top: 15%;
+  right: 23%;
+  width: 200px;
+  height: 200px; }
+
+.start_end {
+  width: 200px;
+  height: 100px;
+  cursor: pointer;
+  border-radius: 3px; }

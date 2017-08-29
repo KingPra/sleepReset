@@ -6,6 +6,7 @@
     <!-- <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet"> -->
     <link rel="stylesheet" href="style.css">
     <script src="app.js"></script>
+
   </head>
   <body>
     <div class="clock">
@@ -17,6 +18,12 @@
       <div class="hand hour"></div>
       <div class="hand min"></div>
       <div class="hand sec"></div>
+    </div>
+    <div class="frame">
+      <div class="timer">
+        <button type="button" name="button" class="start_end" onclick="buttonClick()">Start</button>
+      </div>
+      <button class="snooze" onclick="snooze()">Snooze</button>
     </div>
   </body>
 </html>
